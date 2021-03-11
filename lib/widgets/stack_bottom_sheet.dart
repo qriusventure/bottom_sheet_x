@@ -76,7 +76,7 @@ class _StackBottomSheetState extends State<StackBottomSheet>
         : widget.bottomSheetHeight ?? 320.0;
     _pageHeight = MediaQuery.of(widget.context).size.height;
     _pagePaddingBottom = MediaQuery.of(widget.context).padding.bottom;
-    _maxOffest = _height - (_pagePaddingBottom + 50);
+    _maxOffest = _height - (_pagePaddingBottom + 60);
     setState(() {});
     _stackBottomSheetController
         .addListener(_stackBottomSheetControllerListener);
